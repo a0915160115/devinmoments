@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>抓周派對｜攝影作品</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  background:#fffaf6;
+  color:#4a4038;
+  line-height:1.8;
+}
+
+img{
+  width:100%;
+  display:block;
+  border-radius:18px;
+}
+
+a{
+  text-decoration:none;
+}
+
+.container{
+  width:92%;
+  max-width:1180px;
+  margin:auto;
+}
+
+/* HERO */
+.hero{
+  padding:60px 0 40px;
+}
+
+.hero-wrap{
+  display:grid;
+  grid-template-columns:1.1fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+
+.tag{
+  display:inline-block;
+  background:#ffe7c7;
+  color:#9a6b2f;
+  padding:8px 16px;
+  border-radius:99px;
+  font-size:14px;
+  margin-bottom:20px;
+}
+
+.hero h1{
+  font-size:56px;
+  line-height:1.2;
+  margin-bottom:18px;
+  color:#3e342d;
+}
+
+.hero p{
+  font-size:18px;
+  color:#74675d;
+  margin-bottom:30px;
+}
+
+.btn-group{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  padding:14px 24px;
+  border-radius:999px;
+  font-weight:700;
+  transition:.25s;
+}
+
+.btn-primary{
+  background:#ffb86c;
+  color:#fff;
+}
+
+.btn-primary:hover{
+  background:#f7a546;
+}
+
+.btn-light{
+  background:#fff;
+  border:1px solid #f0d5b5;
+  color:#8a6642;
+}
+
+.hero-image{
+  background:#fff;
+  padding:14px;
+  border-radius:26px;
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+/* SECTION */
+section{
+  padding:70px 0;
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.section-title h2{
+  font-size:38px;
+  margin-bottom:10px;
+}
+
+.section-title p{
+  color:#7c7169;
+}
+
+/* GALLERY */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+/* MESSAGE */
+.message{
+  background:#fff;
+}
+
+.message-box{
+  max-width:860px;
+  margin:auto;
+  background:linear-gradient(135deg,#fff5e7,#fffdf8);
+  padding:50px;
+  border-radius:28px;
+  text-align:center;
+  box-shadow:0 12px 30px rgba(0,0,0,.05);
+}
+
+.message-box h3{
+  font-size:34px;
+  margin-bottom:18px;
+}
+
+.message-box p{
+  font-size:18px;
+  color:#6d6158;
+}
+
+/* DOWNLOAD */
+.download-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card{
+  background:#fff;
+  padding:30px;
+  border-radius:24px;
+  box-shadow:0 10px 25px rgba(0,0,0,.05);
+  text-align:center;
+}
+
+.card h4{
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+.card p{
+  color:#7d7066;
+  margin-bottom:20px;
+}
+
+.card a{
+  display:inline-block;
+  padding:12px 20px;
+  background:#ffd59f;
+  color:#6f4a1e;
+  border-radius:999px;
+  font-weight:700;
+}
+
+/* FOOTER */
+footer{
+  padding:50px 0;
+  text-align:center;
+  color:#8a7c72;
+  font-size:15px;
+}
+
+/* MOBILE */
+@media(max-width:900px){
+
+.hero-wrap{
+  grid-template-columns:1fr;
+}
+
+.hero h1{
+  font-size:42px;
+}
+
+.gallery,
+.download-grid{
+  grid-template-columns:1fr;
+}
+
+.message-box{
+  padding:35px 24px;
+}
+
+.section-title h2{
+  font-size:30px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container hero-wrap">
+
+    <div>
+      <span class="tag">抓周派對・攝影作品</span>
+
+      <h1>抓周紀錄</h1>
+
+      <p>
+        謝謝你們邀請我一起參與這一天。<br>
+        希望這些照片，很多年後再打開時，依然能想起今天的笑聲與幸福。
+      </p>
+
+      <div class="btn-group">
+        <a href="#download" class="btn btn-primary">下載照片</a>
+        <a href="#gallery" class="btn btn-light">瀏覽精選</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="D:\2026\沅沅周歲\沅 (45 - 164).jpg" alt="抓周照片">
+    </div>
+
+  </div>
+</header>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>今天的珍貴瞬間</h2>
+      <p>每一個笑容，都值得被收藏</p>
+    </div>
+
+    <div class="gallery">
+      <img src="D:\2026\沅沅周歲\沅 (87 - 164).jpg" alt="">
+      <img src="D:\2026\沅沅周歲\沅 (89 - 164).jpg" alt="">
+      <img src="D:\2026\沅沅周歲\沅 (100 - 164).jpg" alt="">
+      <img src="D:\2026\沅沅周歲\沅 (103 - 164).jpg" alt="">
+      <img src="D:\2026\沅沅周歲\沅 (120 - 164).jpg" alt="">
+      <img src="D:\2026\沅沅周歲\沅 (115 - 164).jpg" alt="">
+    </div>
+
+  </div>
+</section>
+
+<!-- MESSAGE -->
+<section class="message">
+  <div class="container">
+
+    <div class="message-box">
+      <h3>今天抓到什麼不重要</h3>
+      <P>
+        被全家愛著長大的樣子，才是最珍貴的。<br>
+        願這些畫面，在未來的日子裡，陪你們一直笑著回想。
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- DOWNLOAD -->
+<section id="download">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>作品下載專區</h2>
+      <p>依照需求下載適合的版本</p>
+    </div>
+
+    <div class="download-grid">
+
+      <div class="card">
+        <h4>高清原圖版</h4>
+        <p>適合保存、洗照片、製作相本</p>
+        <a href="#">立即下載</a>
+      </div>
+
+      <div class="card">
+        <h4>手機分享版</h4>
+        <p>適合手機觀看、社群分享</p>
+        <a href="#">立即下載</a>
+      </div>
+
+      <div class="card">
+        <h4>親友分享版</h4>
+        <p>方便傳給阿公阿嬤與親友</p>
+        <a href="#">立即下載</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    用影像記錄你們最珍貴的日常 ✨<br>
+    Your Name Photography
+  </div>
+</footer>
+
+</body>
+</html>
